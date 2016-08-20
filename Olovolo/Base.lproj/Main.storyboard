@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AvenirNext.ttc">
+            <string>AvenirNext-Medium</string>
+            <string>AvenirNext-Medium</string>
+            <string>AvenirNext-Medium</string>
+            <string>AvenirNext-Medium</string>
+            <string>AvenirNext-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Olovolo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sectora.png" translatesAutoresizingMaskIntoConstraints="NO" id="UJh-xJ-gTO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.1215686351" green="0.47450983520000001" blue="0.48627454040000001" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Введите ответ" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rsX-i9-frO">
+                                <rect key="frame" x="20" y="488" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="finishTyping:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="qw8-Uq-7Uo"/>
+                                    <action selector="startType:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="a3U-4p-42X"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" tag="12" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="SiX-uK-6d7" userLabel="convert12.png">
+                                <rect key="frame" x="140" y="394" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="11" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="ALR-XH-yWg" userLabel="convert11.png">
+                                <rect key="frame" x="202" y="375" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="9KD-Fa-SSs" userLabel="convert10.png">
+                                <rect key="frame" x="242" y="331" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="fCA-IA-QtY" userLabel="convert9.png">
+                                <rect key="frame" x="256" y="272" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="uL5-Lz-Vz4" userLabel="convert8.png">
+                                <rect key="frame" x="242" y="214" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="AVV-Vi-WhB" userLabel="convert7.png">
+                                <rect key="frame" x="197" y="168" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="rNB-3Z-L18" userLabel="convert6.png">
+                                <rect key="frame" x="140" y="152" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="LOH-qH-8nN" userLabel="convert5.png">
+                                <rect key="frame" x="80" y="168" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="ldC-1P-5Uo" userLabel="convert4.png">
+                                <rect key="frame" x="39" y="214" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ngl-JH-Jw5" userLabel="convert3.png">
+                                <rect key="frame" x="20" y="271" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="qtJ-Hm-36X" userLabel="convert2.png">
+                                <rect key="frame" x="41" y="331" width="40" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="convert.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Fl-wf-8TZ" userLabel="convert1.png">
+                                <rect key="frame" x="80" y="375" width="40" height="25"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lxr-jC-wby">
+                                <rect key="frame" x="30" y="272" width="260" height="24"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
+                                <state key="normal" image="strelka.png" backgroundImage="strelka.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aHp-zW-0Jc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="volchok.png" translatesAutoresizingMaskIntoConstraints="NO" id="xsd-RL-D69">
+                                <rect key="frame" x="130" y="254" width="60" height="60"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="74k-46-o9N">
+                                <rect key="frame" x="10" y="134" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Во время баскетбольного матча между московским "Динамо" и ЦСКА, когда разница в счете стала быстро расти в пользу армейцев, организаторы включили песню с подходящим припевом. 
+Назовите фамилию того, кто написал эту песню.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
+                            </textView>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGz-yn-7AD">
+                                <rect key="frame" x="96" y="437" width="128" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="Продолжить">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionOkay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fW7-Fv-Aoh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ia-Oo-29d">
+                                <rect key="frame" x="162" y="20" width="80" height="100"/>
+                                <color key="backgroundColor" red="0.39215686274509803" green="0.59607843137254901" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="80"/>
+                                <color key="textColor" red="0.59999999999999998" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVc-NU-igN">
+                                <rect key="frame" x="78" y="20" width="80" height="100"/>
+                                <color key="backgroundColor" red="0.38039215686274508" green="0.79607843137254897" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="siluet.png" translatesAutoresizingMaskIntoConstraints="NO" id="J7c-jx-6xA">
+                                <rect key="frame" x="202" y="20" width="108" height="100"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Вопос задает Роман Манусаджян из Еревана" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="vri-IT-Vh1">
+                                <rect key="frame" x="10" y="20" width="188" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mD4-eD-uf8">
+                                <rect key="frame" x="68" y="437" width="184" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="НАЧАТЬ НОВУЮ ИГРУ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionNewGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="unC-3f-zd3"/>
+                                    <action selector="actionOkay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vka-aQ-KXr"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="flipHorizontal" id="zvb-Vy-tXc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1:20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bye-hL-5J1">
+                                <rect key="frame" x="119" y="444" width="83" height="36"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                <color key="textColor" red="0.59999999999999998" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="buttonNewGame" destination="mD4-eD-uf8" id="afC-SI-kOL"/>
+                        <outlet property="buttonOkay" destination="WGz-yn-7AD" id="DLN-Sh-Lqd"/>
+                        <outlet property="buttonStart" destination="lxr-jC-wby" id="XQZ-U0-rbi"/>
+                        <outlet property="imageSectora" destination="UJh-xJ-gTO" id="0Nw-MF-lOp"/>
+                        <outlet property="labelTimer" destination="bye-hL-5J1" id="HmI-el-FE7"/>
+                        <outlet property="labelZnatoki" destination="cVc-NU-igN" id="leS-JW-tFP"/>
+                        <outlet property="labelZriteli" destination="5ia-Oo-29d" id="iKe-2c-gVE"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="gE0-O9-wIV"/>
+                        <outlet property="siluet" destination="J7c-jx-6xA" id="hbk-r1-gin"/>
+                        <outlet property="textField" destination="rsX-i9-frO" id="yKA-Ns-2qT"/>
+                        <outlet property="textView" destination="74k-46-o9N" id="DqK-9s-Ad3"/>
+                        <outlet property="volchok" destination="xsd-RL-D69" id="8MV-BB-CUh"/>
+                        <outlet property="voprosZadaet" destination="vri-IT-Vh1" id="Kne-7e-7aP"/>
+                        <outletCollection property="konvert" destination="SiX-uK-6d7" collectionClass="NSMutableArray" id="TgC-6v-Jaj"/>
+                        <outletCollection property="konvert" destination="ALR-XH-yWg" collectionClass="NSMutableArray" id="9lb-Ik-ooe"/>
+                        <outletCollection property="konvert" destination="9KD-Fa-SSs" collectionClass="NSMutableArray" id="5pI-VS-xnz"/>
+                        <outletCollection property="konvert" destination="fCA-IA-QtY" collectionClass="NSMutableArray" id="lQT-a4-38w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="416"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="convert.png" width="320" height="200"/>
+        <image name="sectora.png" width="1080" height="1920"/>
+        <image name="siluet.png" width="600" height="568"/>
+        <image name="strelka.png" width="900" height="90"/>
+        <image name="volchok.png" width="240" height="240"/>
+    </resources>
+</document>

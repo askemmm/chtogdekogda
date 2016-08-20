@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<string>Манусаджян</string>
+	<key>2</key>
+	<string>Михельсон</string>
+	<key>3</key>
+	<string>Авдеенко</string>
+	<key>4</key>
+	<string>Донских</string>
+	<key>5</key>
+	<string>Черноус</string>
+	<key>6</key>
+	<string>Лизошвили</string>
+	<key>7</key>
+	<string>Шлендик</string>
+	<key>8</key>
+	<string>Иванко</string>
+	<key>9</key>
+	<string>Манько</string>
+	<key>10</key>
+	<string>Джобс</string>
+	<key>11</key>
+	<string>Штримейстер</string>
+	<key>12</key>
+	<string>Левченко</string>
+	<key>13</key>
+	<string>Смиян</string>
+	<key>14</key>
+	<string>Петренко</string>
+	<key>15</key>
+	<string>Глушко</string>
+	<key>16</key>
+	<string>Потребко</string>
+	<key>17</key>
+	<string>Куница</string>
+	<key>18</key>
+	<string>Лютенко</string>
+	<key>19</key>
+	<string>Басанович</string>
+	<key>20</key>
+	<string>Легай</string>
+	<key>21</key>
+	<string>Карташовски</string>
+	<key>22</key>
+	<string>Марченко</string>
+</dict>
+</plist>

@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200EED401B8E448C002A12A3 /* strelka.png in Resources */ = {isa = PBXBuildFile; fileRef = 200EED3F1B8E448C002A12A3 /* strelka.png */; };
+		200EED421B8E64C7002A12A3 /* volchok.png in Resources */ = {isa = PBXBuildFile; fileRef = 200EED411B8E64C7002A12A3 /* volchok.png */; };
+		200EED441B8E6D14002A12A3 /* sectora.png in Resources */ = {isa = PBXBuildFile; fileRef = 200EED431B8E6D14002A12A3 /* sectora.png */; };
+		2049B6DB1B97935200F6DF42 /* convert.png in Resources */ = {isa = PBXBuildFile; fileRef = 2049B6DA1B97935200F6DF42 /* convert.png */; };
+		20785B991B7D4D2D0080215A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20785B981B7D4D2D0080215A /* AppDelegate.swift */; };
+		20785B9B1B7D4D2D0080215A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20785B9A1B7D4D2D0080215A /* ViewController.swift */; };
+		20785B9E1B7D4D2D0080215A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20785B9C1B7D4D2D0080215A /* Main.storyboard */; };
+		20785BA01B7D4D2D0080215A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20785B9F1B7D4D2D0080215A /* Assets.xcassets */; };
+		20785BA31B7D4D2D0080215A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20785BA11B7D4D2D0080215A /* LaunchScreen.storyboard */; };
+		20785BAE1B7D4D2E0080215A /* OlovoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20785BAD1B7D4D2E0080215A /* OlovoloTests.swift */; };
+		20785BB91B7D4D2E0080215A /* OlovoloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20785BB81B7D4D2E0080215A /* OlovoloUITests.swift */; };
+		208968F61BAA25BA0035898A /* siluet.png in Resources */ = {isa = PBXBuildFile; fileRef = 208968F51BAA25BA0035898A /* siluet.png */; };
+		208968F81BAA2B7D0035898A /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 208968F71BAA2B7D0035898A /* cities.plist */; };
+		20B4F3D41B7FDAC2006D0ACF /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20B4F3D31B7FDAC2006D0ACF /* questions.plist */; };
+		20B4F3D61B7FDB52006D0ACF /* answers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20B4F3D51B7FDB52006D0ACF /* answers.plist */; };
+		20B569A41B83A85700FCE273 /* prefixes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20B569A31B83A85700FCE273 /* prefixes.plist */; };
+		20BEBF731B83C7F3007D6247 /* suffixes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20BEBF721B83C7F3007D6247 /* suffixes.plist */; };
+		20C498D31BAA229B00224075 /* names.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20C498D21BAA229B00224075 /* names.plist */; };
+		20C498D51BAA232000224075 /* surnames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20C498D41BAA232000224075 /* surnames.plist */; };
+		20CB204B1B8110D3003C305C /* suslik.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 20CB204A1B8110D3003C305C /* suslik.aiff */; };
+		20DD8D231B979E0C00A4E022 /* strelka_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DD8D221B979E0C00A4E022 /* strelka_shadow.png */; };
+		20FADB611B93A899006B24AF /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FADB5E1B93A899006B24AF /* red.png */; };
+		2228366E1D3564040061E12C /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2228366D1D3564040061E12C /* icon@3x.png */; };
+		222836701D3564650061E12C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2228366F1D3564650061E12C /* icon@2x.png */; };
+		222836721D35646C0061E12C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 222836711D35646C0061E12C /* icon.png */; };
+		22F3534A1D46341C00B71829 /* komments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F353491D46341C00B71829 /* komments.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20785BAA1B7D4D2E0080215A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20785B8D1B7D4D2D0080215A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20785B941B7D4D2D0080215A;
+			remoteInfo = Olovolo;
+		};
+		20785BB51B7D4D2E0080215A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20785B8D1B7D4D2D0080215A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20785B941B7D4D2D0080215A;
+			remoteInfo = Olovolo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200EED3F1B8E448C002A12A3 /* strelka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = strelka.png; path = "../../OLOVOLO assets/strelka.png"; sourceTree = "<group>"; };
+		200EED411B8E64C7002A12A3 /* volchok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volchok.png; path = "../../OLOVOLO assets/volchok.png"; sourceTree = "<group>"; };
+		200EED431B8E6D14002A12A3 /* sectora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sectora.png; path = "../../OLOVOLO assets/sectora.png"; sourceTree = "<group>"; };
+		2049B6DA1B97935200F6DF42 /* convert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = convert.png; path = "../../OLOVOLO assets/convert.png"; sourceTree = "<group>"; };
+		20785B951B7D4D2D0080215A /* Olovolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olovolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20785B981B7D4D2D0080215A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20785B9A1B7D4D2D0080215A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20785B9D1B7D4D2D0080215A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20785B9F1B7D4D2D0080215A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20785BA21B7D4D2D0080215A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20785BA41B7D4D2D0080215A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20785BA91B7D4D2E0080215A /* OlovoloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlovoloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20785BAD1B7D4D2E0080215A /* OlovoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlovoloTests.swift; sourceTree = "<group>"; };
+		20785BAF1B7D4D2E0080215A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20785BB41B7D4D2E0080215A /* OlovoloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlovoloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20785BB81B7D4D2E0080215A /* OlovoloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlovoloUITests.swift; sourceTree = "<group>"; };
+		20785BBA1B7D4D2E0080215A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208968F51BAA25BA0035898A /* siluet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siluet.png; sourceTree = "<group>"; };
+		208968F71BAA2B7D0035898A /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		20B4F3D31B7FDAC2006D0ACF /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		20B4F3D51B7FDB52006D0ACF /* answers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = answers.plist; sourceTree = "<group>"; };
+		20B569A31B83A85700FCE273 /* prefixes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = prefixes.plist; sourceTree = "<group>"; };
+		20BEBF721B83C7F3007D6247 /* suffixes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = suffixes.plist; sourceTree = "<group>"; };
+		20C498D21BAA229B00224075 /* names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = names.plist; sourceTree = "<group>"; };
+		20C498D41BAA232000224075 /* surnames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = surnames.plist; sourceTree = "<group>"; };
+		20CB204A1B8110D3003C305C /* suslik.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = suslik.aiff; sourceTree = "<group>"; };
+		20DD8D221B979E0C00A4E022 /* strelka_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = strelka_shadow.png; path = "../../OLOVOLO assets/strelka_shadow.png"; sourceTree = "<group>"; };
+		20FADB5E1B93A899006B24AF /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = "../../OLOVOLO assets/red.png"; sourceTree = "<group>"; };
+		2228366D1D3564040061E12C /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		2228366F1D3564650061E12C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		222836711D35646C0061E12C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		22F353491D46341C00B71829 /* komments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = komments.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20785B921B7D4D2D0080215A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20785BA61B7D4D2E0080215A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20785BB11B7D4D2E0080215A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20785B8C1B7D4D2D0080215A = {
+			isa = PBXGroup;
+			children = (
+				20785B971B7D4D2D0080215A /* Olovolo */,
+				20785BAC1B7D4D2E0080215A /* OlovoloTests */,
+				20785BB71B7D4D2E0080215A /* OlovoloUITests */,
+				20785B961B7D4D2D0080215A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20785B961B7D4D2D0080215A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20785B951B7D4D2D0080215A /* Olovolo.app */,
+				20785BA91B7D4D2E0080215A /* OlovoloTests.xctest */,
+				20785BB41B7D4D2E0080215A /* OlovoloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20785B971B7D4D2D0080215A /* Olovolo */ = {
+			isa = PBXGroup;
+			children = (
+				20785B981B7D4D2D0080215A /* AppDelegate.swift */,
+				20785B9A1B7D4D2D0080215A /* ViewController.swift */,
+				208968F71BAA2B7D0035898A /* cities.plist */,
+				20C498D21BAA229B00224075 /* names.plist */,
+				20C498D41BAA232000224075 /* surnames.plist */,
+				200EED411B8E64C7002A12A3 /* volchok.png */,
+				208968F51BAA25BA0035898A /* siluet.png */,
+				200EED3F1B8E448C002A12A3 /* strelka.png */,
+				20785B9C1B7D4D2D0080215A /* Main.storyboard */,
+				20DD8D221B979E0C00A4E022 /* strelka_shadow.png */,
+				2049B6DA1B97935200F6DF42 /* convert.png */,
+				20FADB5E1B93A899006B24AF /* red.png */,
+				200EED431B8E6D14002A12A3 /* sectora.png */,
+				20CB204A1B8110D3003C305C /* suslik.aiff */,
+				20B4F3D31B7FDAC2006D0ACF /* questions.plist */,
+				20B4F3D51B7FDB52006D0ACF /* answers.plist */,
+				22F353491D46341C00B71829 /* komments.plist */,
+				20B569A31B83A85700FCE273 /* prefixes.plist */,
+				20BEBF721B83C7F3007D6247 /* suffixes.plist */,
+				20785B9F1B7D4D2D0080215A /* Assets.xcassets */,
+				222836711D35646C0061E12C /* icon.png */,
+				2228366F1D3564650061E12C /* icon@2x.png */,
+				2228366D1D3564040061E12C /* icon@3x.png */,
+				20785BA11B7D4D2D0080215A /* LaunchScreen.storyboard */,
+				20785BA41B7D4D2D0080215A /* Info.plist */,
+			);
+			path = Olovolo;
+			sourceTree = "<group>";
+		};
+		20785BAC1B7D4D2E0080215A /* OlovoloTests */ = {
+			isa = PBXGroup;
+			children = (
+				20785BAD1B7D4D2E0080215A /* OlovoloTests.swift */,
+				20785BAF1B7D4D2E0080215A /* Info.plist */,
+			);
+			path = OlovoloTests;
+			sourceTree = "<group>";
+		};
+		20785BB71B7D4D2E0080215A /* OlovoloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20785BB81B7D4D2E0080215A /* OlovoloUITests.swift */,
+				20785BBA1B7D4D2E0080215A /* Info.plist */,
+			);
+			path = OlovoloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20785B941B7D4D2D0080215A /* Olovolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20785BBD1B7D4D2E0080215A /* Build configuration list for PBXNativeTarget "Olovolo" */;
+			buildPhases = (
+				20785B911B7D4D2D0080215A /* Sources */,
+				20785B921B7D4D2D0080215A /* Frameworks */,
+				20785B931B7D4D2D0080215A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Olovolo;
+			productName = Olovolo;
+			productReference = 20785B951B7D4D2D0080215A /* Olovolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20785BA81B7D4D2E0080215A /* OlovoloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20785BC01B7D4D2E0080215A /* Build configuration list for PBXNativeTarget "OlovoloTests" */;
+			buildPhases = (
+				20785BA51B7D4D2E0080215A /* Sources */,
+				20785BA61B7D4D2E0080215A /* Frameworks */,
+				20785BA71B7D4D2E0080215A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20785BAB1B7D4D2E0080215A /* PBXTargetDependency */,
+			);
+			name = OlovoloTests;
+			productName = OlovoloTests;
+			productReference = 20785BA91B7D4D2E0080215A /* OlovoloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20785BB31B7D4D2E0080215A /* OlovoloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20785BC31B7D4D2E0080215A /* Build configuration list for PBXNativeTarget "OlovoloUITests" */;
+			buildPhases = (
+				20785BB01B7D4D2E0080215A /* Sources */,
+				20785BB11B7D4D2E0080215A /* Frameworks */,
+				20785BB21B7D4D2E0080215A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20785BB61B7D4D2E0080215A /* PBXTargetDependency */,
+			);
+			name = OlovoloUITests;
+			productName = OlovoloUITests;
+			productReference = 20785BB41B7D4D2E0080215A /* OlovoloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20785B8D1B7D4D2D0080215A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Emil Askerov";
+				TargetAttributes = {
+					20785B941B7D4D2D0080215A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = N3LKP57FMK;
+					};
+					20785BA81B7D4D2E0080215A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 20785B941B7D4D2D0080215A;
+					};
+					20785BB31B7D4D2E0080215A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 20785B941B7D4D2D0080215A;
+					};
+				};
+			};
+			buildConfigurationList = 20785B901B7D4D2D0080215A /* Build configuration list for PBXProject "Olovolo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20785B8C1B7D4D2D0080215A;
+			productRefGroup = 20785B961B7D4D2D0080215A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20785B941B7D4D2D0080215A /* Olovolo */,
+				20785BA81B7D4D2E0080215A /* OlovoloTests */,
+				20785BB31B7D4D2E0080215A /* OlovoloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20785B931B7D4D2D0080215A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F3534A1D46341C00B71829 /* komments.plist in Resources */,
+				20DD8D231B979E0C00A4E022 /* strelka_shadow.png in Resources */,
+				208968F61BAA25BA0035898A /* siluet.png in Resources */,
+				200EED421B8E64C7002A12A3 /* volchok.png in Resources */,
+				20FADB611B93A899006B24AF /* red.png in Resources */,
+				200EED441B8E6D14002A12A3 /* sectora.png in Resources */,
+				200EED401B8E448C002A12A3 /* strelka.png in Resources */,
+				20B569A41B83A85700FCE273 /* prefixes.plist in Resources */,
+				20C498D51BAA232000224075 /* surnames.plist in Resources */,
+				222836721D35646C0061E12C /* icon.png in Resources */,
+				2228366E1D3564040061E12C /* icon@3x.png in Resources */,
+				222836701D3564650061E12C /* icon@2x.png in Resources */,
+				20B4F3D41B7FDAC2006D0ACF /* questions.plist in Resources */,
+				208968F81BAA2B7D0035898A /* cities.plist in Resources */,
+				20785BA31B7D4D2D0080215A /* LaunchScreen.storyboard in Resources */,
+				20CB204B1B8110D3003C305C /* suslik.aiff in Resources */,
+				20785BA01B7D4D2D0080215A /* Assets.xcassets in Resources */,
+				20C498D31BAA229B00224075 /* names.plist in Resources */,
+				2049B6DB1B97935200F6DF42 /* convert.png in Resources */,
+				20B4F3D61B7FDB52006D0ACF /* answers.plist in Resources */,
+				20BEBF731B83C7F3007D6247 /* suffixes.plist in Resources */,
+				20785B9E1B7D4D2D0080215A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20785BA71B7D4D2E0080215A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20785BB21B7D4D2E0080215A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20785B911B7D4D2D0080215A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20785B9B1B7D4D2D0080215A /* ViewController.swift in Sources */,
+				20785B991B7D4D2D0080215A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20785BA51B7D4D2E0080215A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20785BAE1B7D4D2E0080215A /* OlovoloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20785BB01B7D4D2E0080215A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20785BB91B7D4D2E0080215A /* OlovoloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20785BAB1B7D4D2E0080215A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20785B941B7D4D2D0080215A /* Olovolo */;
+			targetProxy = 20785BAA1B7D4D2E0080215A /* PBXContainerItemProxy */;
+		};
+		20785BB61B7D4D2E0080215A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20785B941B7D4D2D0080215A /* Olovolo */;
+			targetProxy = 20785BB51B7D4D2E0080215A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20785B9C1B7D4D2D0080215A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20785B9D1B7D4D2D0080215A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20785BA11B7D4D2D0080215A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20785BA21B7D4D2D0080215A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20785BBB1B7D4D2E0080215A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20785BBC1B7D4D2E0080215A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20785BBE1B7D4D2E0080215A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Olovolo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EmilAskerov.Olovolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		20785BBF1B7D4D2E0080215A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Olovolo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EmilAskerov.Olovolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		20785BC11B7D4D2E0080215A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OlovoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EmilAskerov.OlovoloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olovolo.app/Olovolo";
+			};
+			name = Debug;
+		};
+		20785BC21B7D4D2E0080215A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OlovoloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EmilAskerov.OlovoloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olovolo.app/Olovolo";
+			};
+			name = Release;
+		};
+		20785BC41B7D4D2E0080215A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OlovoloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EmilAskerov.OlovoloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Olovolo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		20785BC51B7D4D2E0080215A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OlovoloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EmilAskerov.OlovoloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Olovolo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20785B901B7D4D2D0080215A /* Build configuration list for PBXProject "Olovolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20785BBB1B7D4D2E0080215A /* Debug */,
+				20785BBC1B7D4D2E0080215A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20785BBD1B7D4D2E0080215A /* Build configuration list for PBXNativeTarget "Olovolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20785BBE1B7D4D2E0080215A /* Debug */,
+				20785BBF1B7D4D2E0080215A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20785BC01B7D4D2E0080215A /* Build configuration list for PBXNativeTarget "OlovoloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20785BC11B7D4D2E0080215A /* Debug */,
+				20785BC21B7D4D2E0080215A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20785BC31B7D4D2E0080215A /* Build configuration list for PBXNativeTarget "OlovoloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20785BC41B7D4D2E0080215A /* Debug */,
+				20785BC51B7D4D2E0080215A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20785B8D1B7D4D2D0080215A /* Project object */;
+}

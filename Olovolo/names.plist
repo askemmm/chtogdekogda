@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<string>Андрей</string>
+	<key>2</key>
+	<string>Антон</string>
+	<key>3</key>
+	<string>Сергей</string>
+	<key>4</key>
+	<string>Михаил</string>
+	<key>5</key>
+	<string>Максим</string>
+	<key>6</key>
+	<string>Кирилл</string>
+	<key>7</key>
+	<string>Александр</string>
+	<key>8</key>
+	<string>Роман</string>
+	<key>9</key>
+	<string>Эмиль</string>
+	<key>10</key>
+	<string>Павел</string>
+	<key>11</key>
+	<string>Никита</string>
+	<key>12</key>
+	<string>Мария</string>
+	<key>13</key>
+	<string>Анна</string>
+	<key>14</key>
+	<string>Елизавета</string>
+	<key>15</key>
+	<string>Наталья</string>
+	<key>16</key>
+	<string>Марина</string>
+	<key>17</key>
+	<string>Маргарита</string>
+	<key>18</key>
+	<string>Инна</string>
+	<key>19</key>
+	<string>Юрий</string>
+	<key>20</key>
+	<string>Дмитрий</string>
+	<key>21</key>
+	<string>Эльза</string>
+	<key>22</key>
+	<string>Олег</string>
+</dict>
+</plist>
